@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md fixed-top {{foreground}}" style="background: {{background}};">
   <div class="container d-flex justify-content-between">
 
-   <a class="navbar-brand" href="#!pages/home">{{name}}</a>
+   <a class="navbar-brand" href="#!pages/home" aria-label="TOPMed Imputation Server"><img src="/static/images/nhlbi-biodata-catalyst-logo.png" height="50px" alt="NHLBI BioData Catalyst Logo"></a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
    </button>
