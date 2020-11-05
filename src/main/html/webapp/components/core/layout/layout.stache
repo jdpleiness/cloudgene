@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md fixed-top {{foreground}}" style="background: {{background}};">
   <div class="container d-flex justify-content-between">
 
-   <a class="navbar-brand" href="#!pages/home">{{name}}</a>
+   <a class="navbar-brand" href="#!pages/home" aria-label="TOPMed Imputation Server"><img src="/static/images/tis-logo.png" height="50px" alt="NHLBI BioData Catalyst Logo"></a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
    </button>
@@ -106,10 +106,28 @@
 <div id="content" class=""></div>
 
 <footer class="text-muted" style="border-top: 1px solid #dee2e6;">
-  <div class="container">
-    <p class="float-right">
-      <small><a href="#">Back to top</a></small>
-    </p>
-    <p><small>{{{footer}}}</p></small>
-  </div>
+    <div class="container">
+        <p class="float-right">
+            <small><a href="#">Back to top</a></small>
+        </p>
+        <p>
+            <small>
+                <p><nobr><a href="https://biodatacatalyst.nhlbi.nih.gov/privacy/" class="footer__link" target="_blank"
+                        rel="noopener noreferrer">Privacy Policy</a></nobr><span> | </span><nobr><a
+                        href="https://osp.od.nih.gov/scientific-sharing/policies/" class="footer__link" target="_blank"
+                        rel="noopener noreferrer">Data Sharing Policy</a></nobr><span> | </span><nobr><a
+                        href="https://www.nhlbi.nih.gov/about/foia-fee-for-service-office" class="footer__link"
+                        target="_blank" rel="noopener noreferrer">Freedom of Information Act (FOIA)</a></nobr><span> |
+                    </span><nobr><a href="https://biodatacatalyst.nhlbi.nih.gov/accessibility" class="footer__link"
+                        target="_blank" rel="noopener noreferrer">Accessibility Information</a></nobr><span> | </span><nobr><a
+                        href="https://www.hhs.gov" class="footer__link" target="_blank" rel="noopener noreferrer">U.S.
+                        Department of Health &amp; Human Services</a></nobr><span> | </span><nobr><a href="https://www.nih.gov"
+                        class="footer__link" target="_blank" rel="noopener noreferrer">National Institutes of
+                        Health</a></nobr><span> | </span><nobr><a href="https://www.nhlbi.nih.gov" class="footer__link"
+                        target="_blank" rel="noopener noreferrer">National Heart, Lung, and Blood Institute</a></nobr><span> |
+                    </span><nobr><a href="https://www.usa.gov" class="footer__link" target="_blank"
+                        rel="noopener noreferrer">USA.gov</a></nobr></p>
+            </small>
+        </p>
+    </div>
 </footer>
